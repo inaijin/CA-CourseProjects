@@ -1,0 +1,14 @@
+module Reg4Bit(Din,clk,rst,Dout);
+
+	input Din,clk;
+	output Dout;
+	reg [0:3] Dout;
+
+	always @(posedge clk)
+	begin
+		if(rst)
+			Dout <= 4'b0000;
+		else
+			Dout <= Din;
+	end
+endmodule

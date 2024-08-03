@@ -1,0 +1,1085 @@
+vsim -gui work.testBench
+# vsim -gui work.testBench 
+# Start time: 20:11:32 on Apr 09,2023
+# Loading work.testBench
+# Loading work.toplevel
+# Loading work.DataPath
+# Loading work.Reg2Bit
+# Loading work.mux_2_to_1_2bit
+# Loading work.inc
+# Loading work.mux_4_to_1
+# Loading work.reg_1b
+# Loading work.mux_4_to_1_1bit
+# Loading work.Reg5Bit
+# Loading work.mux_2_to_1_5bit
+# Loading work.donecheck
+# Loading work.Adder
+# Loading work.Maze
+# Loading work.stack
+# Loading work.Controller
+add wave -position end  sim:/testBench/start
+add wave -position end  sim:/testBench/clk
+add wave -position end  sim:/testBench/rst
+add wave -position end  sim:/testBench/run
+add wave -position end  sim:/testBench/fail
+add wave -position end  sim:/testBench/done
+add wave -position end  sim:/testBench/move
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Hesam  Hostname: LAPTOP-5V4MC8T5  ProcessID: 21228
+#           Attempting to use alternate WLF file "./wlftn4azed".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftn4azed
+add wave -position end  sim:/testBench/test/CTR/ps
+add wave -position end sim:/testBench/test/DP/regmove/*
+add wave -position end sim:/testBench/test/DP/Inc/*
+add wave -position end sim:/testBench/test/DP/backmux/*
+add wave -position end sim:/testBench/test/DP/s/*
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 2060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+# Compile of increamenter.v was successful.
+# Compile of reg2bit.v was successful.
+# Compile of stack.v was successful.
+# Compile of maze.v was successful.
+# Compile of reg5bit.v was successful.
+# Compile of controller.v was successful.
+# Compile of mux2inp.v was successful.
+# Compile of mux4inp.v was successful.
+# Compile of reg1bit.v was successful.
+# Compile of Adder5bit.v was successful.
+# Compile of mux2inp2bit.v was successful.
+# Compile of TB.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of DoneCheck.v was successful.
+# Compile of mux4inp1bit.v was successful.
+# Compile of toplevel.v was successful.
+# Compile of testb.v was successful.
+# 17 compiles, 0 failed with no errors.
+run -all
+add wave -position end  sim:/testBench/test/CTR/ps
+add wave -position end sim:/testBench/test/DP/maze/*
+# Break key hit
+# Simulation stop requested.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testBench
+# Loading work.toplevel
+# Loading work.DataPath
+# Loading work.Reg2Bit
+# Loading work.mux_2_to_1_2bit
+# Loading work.inc
+# Loading work.mux_4_to_1
+# Loading work.reg_1b
+# Loading work.mux_4_to_1_1bit
+# Loading work.Reg5Bit
+# Loading work.mux_2_to_1_5bit
+# Loading work.donecheck
+# Loading work.Adder
+# Loading work.Maze
+# Loading work.stack
+# Loading work.Controller
+restart -f
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 2060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+add wave -position end  sim:/testBench/move
+quit -sim
+# End time: 20:36:27 on Apr 09,2023, Elapsed time: 0:24:55
+# Errors: 0, Warnings: 1
+vsim -gui work.testBench
+# vsim -gui work.testBench 
+# Start time: 20:39:08 on Apr 09,2023
+# Loading work.testBench
+# Loading work.toplevel
+# Loading work.DataPath
+# Loading work.Reg2Bit
+# Loading work.mux_2_to_1_2bit
+# Loading work.inc
+# Loading work.mux_4_to_1
+# Loading work.reg_1b
+# Loading work.mux_4_to_1_1bit
+# Loading work.Reg5Bit
+# Loading work.mux_2_to_1_5bit
+# Loading work.donecheck
+# Loading work.Adder
+# Loading work.Maze
+# Loading work.stack
+# Loading work.Controller
+add wave -position end sim:/testBench/test/DP/regx/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Hesam  Hostname: LAPTOP-5V4MC8T5  ProcessID: 21228
+#           Attempting to use alternate WLF file "./wlftw9dese".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftw9dese
+add wave -position end  sim:/testBench/test/DP/regy/Dout
+add wave -position end  sim:/testBench/clk
+add wave -position end  sim:/testBench/test/CTR/ps
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 2060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+# Compile of controller.v was successful.
+add wave -position end  sim:/testBench/fail
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Controller
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 2060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+add wave -position end  sim:/testBench/test/DP/revreg/q
+restart -f
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 2060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+add wave -position end  sim:/testBench/test/DP/maze/Dout
+add wave -position end  sim:/testBench/test/DP/maze/RD
+restart -f
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 2060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+quit -sim
+# End time: 21:06:17 on Apr 09,2023, Elapsed time: 0:27:09
+# Errors: 0, Warnings: 1
+# Load canceled
+# Compile of increamenter.v was successful.
+# Compile of reg2bit.v was successful.
+# Compile of stack.v was successful.
+# Compile of maze.v failed with 3 errors.
+# Compile of reg5bit.v was successful.
+# Compile of controller.v was successful.
+# Compile of mux2inp.v was successful.
+# Compile of mux4inp.v was successful.
+# Compile of reg1bit.v was successful.
+# Compile of Adder5bit.v was successful.
+# Compile of mux2inp2bit.v was successful.
+# Compile of TB.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of DoneCheck.v was successful.
+# Compile of mux4inp1bit.v was successful.
+# Compile of toplevel.v was successful.
+# Compile of testb.v was successful.
+# 17 compiles, 1 failed with 3 errors.
+# Compile of increamenter.v was successful.
+# Compile of reg2bit.v was successful.
+# Compile of stack.v was successful.
+# Compile of maze.v was successful.
+# Compile of reg5bit.v was successful.
+# Compile of controller.v was successful.
+# Compile of mux2inp.v was successful.
+# Compile of mux4inp.v was successful.
+# Compile of reg1bit.v was successful.
+# Compile of Adder5bit.v was successful.
+# Compile of mux2inp2bit.v was successful.
+# Compile of TB.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of DoneCheck.v was successful.
+# Compile of mux4inp1bit.v was successful.
+# Compile of toplevel.v was successful.
+# Compile of testb.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -gui work.Tbmaze
+# vsim -gui work.Tbmaze 
+# Start time: 21:08:29 on Apr 09,2023
+# Loading work.Tbmaze
+# ** Error: (vsim-3037) Missing instance name in instantiation of 'Maze'.
+#    Time: 0 ps  Iteration: 0  Instance: /Tbmaze File: D:/UT/term 4/CA/CA-1/maze.v Line: 35
+# Error loading design
+# End time: 21:08:30 on Apr 09,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 3
+# Compile of maze.v was successful.
+vsim -gui work.Tbmaze
+# vsim -gui work.Tbmaze 
+# Start time: 21:09:14 on Apr 09,2023
+# Loading work.Tbmaze
+# Loading work.Maze
+add wave -position end  sim:/Tbmaze/Xin
+add wave -position end  sim:/Tbmaze/Yin
+add wave -position end  sim:/Tbmaze/clk
+add wave -position end  sim:/Tbmaze/Din
+add wave -position end  sim:/Tbmaze/RD
+add wave -position end  sim:/Tbmaze/WR
+add wave -position end  sim:/Tbmaze/Dout
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Hesam  Hostname: LAPTOP-5V4MC8T5  ProcessID: 21228
+#           Attempting to use alternate WLF file "./wlftbc2tnm".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftbc2tnm
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/maze.v(43)
+#    Time: 30 ps  Iteration: 0  Instance: /Tbmaze
+# Break in Module Tbmaze at D:/UT/term 4/CA/CA-1/maze.v line 43
+# Compile of maze.v was successful.
+run -all
+# Break key hit
+# Simulation stop requested.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Tbmaze
+# Loading work.Maze
+restart -f
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/maze.v(43)
+#    Time: 1010 ps  Iteration: 0  Instance: /Tbmaze
+# Break in Module Tbmaze at D:/UT/term 4/CA/CA-1/maze.v line 43
+# Compile of maze.v was successful with warnings.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Tbmaze
+# Loading work.Maze
+restart -f
+run -all
+# ** Error: This is a packed array.  The tasks $readmem/$writemem cannot work with it.    : D:/UT/term 4/CA/CA-1/maze.v(11)
+#    Time: 0 ps  Iteration: 0  Instance: /Tbmaze/tmaze
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/maze.v(43)
+#    Time: 1010 ps  Iteration: 0  Instance: /Tbmaze
+# Break in Module Tbmaze at D:/UT/term 4/CA/CA-1/maze.v line 43
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Compile of increamenter.v was successful.
+# Compile of reg2bit.v was successful.
+# Compile of stack.v was successful.
+# Compile of maze.v was successful.
+# Compile of reg5bit.v was successful.
+# Compile of controller.v was successful.
+# Compile of mux2inp.v was successful.
+# Compile of mux4inp.v was successful.
+# Compile of reg1bit.v was successful.
+# Compile of Adder5bit.v was successful.
+# Compile of mux2inp2bit.v was successful.
+# Compile of TB.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of DoneCheck.v was successful.
+# Compile of mux4inp1bit.v was successful.
+# Compile of toplevel.v was successful.
+# Compile of testb.v was successful.
+# 17 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Tbmaze
+# Loading work.Maze
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/maze.v(43)
+#    Time: 1010 ps  Iteration: 0  Instance: /Tbmaze
+# Break in Module Tbmaze at D:/UT/term 4/CA/CA-1/maze.v line 43
+# Compile of maze.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Tbmaze
+# Loading work.Maze
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/maze.v(43)
+#    Time: 1010 ps  Iteration: 0  Instance: /Tbmaze
+# Break in Module Tbmaze at D:/UT/term 4/CA/CA-1/maze.v line 43
+# Compile of maze.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Tbmaze
+# Loading work.Maze
+run -all
+# ** Warning: (vsim-PLI-3406) Too many digits (4) in data on line 1 of file "map0.txt". (Max is 1.)    : D:/UT/term 4/CA/CA-1/maze.v(11)
+#    Time: 0 ps  Iteration: 0  Instance: /Tbmaze/tmaze
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/maze.v(43)
+#    Time: 1010 ps  Iteration: 0  Instance: /Tbmaze
+# Break in Module Tbmaze at D:/UT/term 4/CA/CA-1/maze.v line 43
+# Compile of increamenter.v was successful.
+# Compile of reg2bit.v was successful.
+# Compile of stack.v was successful.
+# Compile of maze.v was successful.
+# Compile of reg5bit.v was successful.
+# Compile of controller.v was successful.
+# Compile of mux2inp.v was successful.
+# Compile of mux4inp.v was successful.
+# Compile of reg1bit.v was successful.
+# Compile of Adder5bit.v was successful.
+# Compile of mux2inp2bit.v was successful.
+# Compile of TB.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of DoneCheck.v was successful.
+# Compile of mux4inp1bit.v was successful.
+# Compile of toplevel.v was successful.
+# Compile of testb.v was successful.
+# 17 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Tbmaze
+# Loading work.Maze
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/maze.v(44)
+#    Time: 1010 ps  Iteration: 0  Instance: /Tbmaze
+# Break in Module Tbmaze at D:/UT/term 4/CA/CA-1/maze.v line 44
+# Compile of maze.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Tbmaze
+# Loading work.Maze
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/maze.v(44)
+#    Time: 1010 ps  Iteration: 0  Instance: /Tbmaze
+# Break in Module Tbmaze at D:/UT/term 4/CA/CA-1/maze.v line 44
+restart -f
+# Compile of maze.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Tbmaze
+# Loading work.Maze
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/maze.v(44)
+#    Time: 1010 ps  Iteration: 0  Instance: /Tbmaze
+# Break in Module Tbmaze at D:/UT/term 4/CA/CA-1/maze.v line 44
+# Compile of maze.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Tbmaze
+# Loading work.Maze
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/maze.v(44)
+#    Time: 1010 ps  Iteration: 0  Instance: /Tbmaze
+# Break in Module Tbmaze at D:/UT/term 4/CA/CA-1/maze.v line 44
+# Compile of maze.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Tbmaze
+# Loading work.Maze
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/maze.v(55)
+#    Time: 1040 ps  Iteration: 0  Instance: /Tbmaze
+# Break in Module Tbmaze at D:/UT/term 4/CA/CA-1/maze.v line 55
+restart -f
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/maze.v(55)
+#    Time: 1040 ps  Iteration: 0  Instance: /Tbmaze
+# Break in Module Tbmaze at D:/UT/term 4/CA/CA-1/maze.v line 55
+# Compile of maze.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Tbmaze
+# Loading work.Maze
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/maze.v(64)
+#    Time: 1070 ps  Iteration: 0  Instance: /Tbmaze
+# Break in Module Tbmaze at D:/UT/term 4/CA/CA-1/maze.v line 64
+# Compile of maze.v was successful.
+quit -sim
+# End time: 21:43:18 on Apr 09,2023, Elapsed time: 0:34:04
+# Errors: 0, Warnings: 2
+vsim -gui work.testBench
+# vsim -gui work.testBench 
+# Start time: 21:43:31 on Apr 09,2023
+# Loading work.testBench
+# Loading work.toplevel
+# Loading work.DataPath
+# Loading work.Reg2Bit
+# Loading work.mux_2_to_1_2bit
+# Loading work.inc
+# Loading work.mux_4_to_1
+# Loading work.reg_1b
+# Loading work.mux_4_to_1_1bit
+# Loading work.Reg5Bit
+# Loading work.mux_2_to_1_5bit
+# Loading work.donecheck
+# Loading work.Adder
+# Loading work.Maze
+# Loading work.stack
+# Loading work.Controller
+# Compile of increamenter.v was successful.
+# Compile of reg2bit.v was successful.
+# Compile of stack.v was successful.
+# Compile of maze.v was successful.
+# Compile of reg5bit.v was successful.
+# Compile of controller.v was successful.
+# Compile of mux2inp.v was successful.
+# Compile of mux4inp.v was successful.
+# Compile of reg1bit.v was successful.
+# Compile of Adder5bit.v was successful.
+# Compile of mux2inp2bit.v was successful.
+# Compile of TB.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of DoneCheck.v was successful.
+# Compile of mux4inp1bit.v was successful.
+# Compile of toplevel.v was successful.
+# Compile of testb.v was successful.
+# 17 compiles, 0 failed with no errors.
+add wave -position end  sim:/testBench/start
+add wave -position end  sim:/testBench/clk
+add wave -position end  sim:/testBench/rst
+add wave -position end  sim:/testBench/run
+add wave -position end  sim:/testBench/fail
+add wave -position end  sim:/testBench/done
+add wave -position end  sim:/testBench/move
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Hesam  Hostname: LAPTOP-5V4MC8T5  ProcessID: 21228
+#           Attempting to use alternate WLF file "./wlft51zz6g".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft51zz6g
+add wave -position end  sim:/testBench/test/CTR/ps
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 2060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+add wave -position end  sim:/testBench/test/DP/regx/Dout
+add wave -position end sim:/testBench/test/DP/regy/*
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testBench
+# Loading work.toplevel
+# Loading work.DataPath
+# Loading work.Reg2Bit
+# Loading work.mux_2_to_1_2bit
+# Loading work.inc
+# Loading work.mux_4_to_1
+# Loading work.reg_1b
+# Loading work.mux_4_to_1_1bit
+# Loading work.Reg5Bit
+# Loading work.mux_2_to_1_5bit
+# Loading work.donecheck
+# Loading work.Adder
+# Loading work.Maze
+# Loading work.stack
+# Loading work.Controller
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 2060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+add wave -position end  sim:/testBench/test/DP/DoneCheck/done
+restart -f
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 2060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+add wave -position end  sim:/testBench/test/CTR/donecheck
+restart -f
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 2060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+# Compile of increamenter.v was successful.
+# Compile of reg2bit.v was successful.
+# Compile of stack.v was successful.
+# Compile of maze.v was successful.
+# Compile of reg5bit.v was successful.
+# Compile of controller.v was successful.
+# Compile of mux2inp.v was successful.
+# Compile of mux4inp.v was successful.
+# Compile of reg1bit.v was successful.
+# Compile of Adder5bit.v was successful.
+# Compile of mux2inp2bit.v was successful.
+# Compile of TB.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of DoneCheck.v was successful.
+# Compile of mux4inp1bit.v was successful.
+# Compile of toplevel.v was successful.
+# Compile of testb.v was successful.
+# 17 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testBench
+# Loading work.toplevel
+# Loading work.DataPath
+# Loading work.Reg2Bit
+# Loading work.mux_2_to_1_2bit
+# Loading work.inc
+# Loading work.mux_4_to_1
+# Loading work.reg_1b
+# Loading work.mux_4_to_1_1bit
+# Loading work.Reg5Bit
+# Loading work.mux_2_to_1_5bit
+# Loading work.donecheck
+# Loading work.Adder
+# Loading work.Maze
+# Loading work.stack
+# Loading work.Controller
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 2060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+quit -sim
+# End time: 21:53:48 on Apr 09,2023, Elapsed time: 0:10:17
+# Errors: 0, Warnings: 1
+# Compile of increamenter.v was successful.
+# Compile of reg2bit.v was successful.
+# Compile of stack.v was successful.
+# Compile of maze.v was successful.
+# Compile of reg5bit.v was successful.
+# Compile of controller.v was successful.
+# Compile of mux2inp.v was successful.
+# Compile of mux4inp.v was successful.
+# Compile of reg1bit.v was successful.
+# Compile of Adder5bit.v was successful.
+# Compile of mux2inp2bit.v was successful.
+# Compile of TB.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of DoneCheck.v was successful.
+# Compile of mux4inp1bit.v was successful.
+# Compile of toplevel.v was successful.
+# Compile of testb.v was successful.
+# 17 compiles, 0 failed with no errors.
+vsim -gui work.testBench
+# vsim -gui work.testBench 
+# Start time: 21:55:23 on Apr 09,2023
+# Loading work.testBench
+# Loading work.toplevel
+# Loading work.DataPath
+# Loading work.Reg2Bit
+# Loading work.mux_2_to_1_2bit
+# Loading work.inc
+# Loading work.mux_4_to_1
+# Loading work.reg_1b
+# Loading work.mux_4_to_1_1bit
+# Loading work.Reg5Bit
+# Loading work.mux_2_to_1_5bit
+# Loading work.donecheck
+# Loading work.Adder
+# Loading work.Maze
+# Loading work.stack
+# Loading work.Controller
+add wave -position end  sim:/testBench/start
+add wave -position end  sim:/testBench/clk
+add wave -position end  sim:/testBench/rst
+add wave -position end  sim:/testBench/run
+add wave -position end  sim:/testBench/fail
+add wave -position end  sim:/testBench/done
+add wave -position end  sim:/testBench/move
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: Hesam  Hostname: LAPTOP-5V4MC8T5  ProcessID: 21228
+#           Attempting to use alternate WLF file "./wlft9q7ifn".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlft9q7ifn
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 11060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+add wave -position end  sim:/testBench/test/CTR/ps
+# Compile of increamenter.v was successful.
+# Compile of reg2bit.v was successful.
+# Compile of stack.v was successful.
+# Compile of maze.v was successful.
+# Compile of reg5bit.v was successful.
+# Compile of controller.v was successful.
+# Compile of mux2inp.v was successful.
+# Compile of mux4inp.v was successful.
+# Compile of reg1bit.v was successful.
+# Compile of Adder5bit.v was successful.
+# Compile of mux2inp2bit.v was successful.
+# Compile of TB.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of DoneCheck.v was successful.
+# Compile of mux4inp1bit.v was successful.
+# Compile of toplevel.v was successful.
+# Compile of testb.v was successful.
+# 17 compiles, 0 failed with no errors.
+# Compile of increamenter.v was successful.
+# Compile of reg2bit.v was successful.
+# Compile of stack.v was successful.
+# Compile of maze.v was successful.
+# Compile of reg5bit.v was successful.
+# Compile of controller.v was successful.
+# Compile of mux2inp.v was successful.
+# Compile of mux4inp.v was successful.
+# Compile of reg1bit.v was successful.
+# Compile of Adder5bit.v was successful.
+# Compile of mux2inp2bit.v was successful.
+# Compile of TB.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of DoneCheck.v was successful.
+# Compile of mux4inp1bit.v was successful.
+# Compile of toplevel.v was successful.
+# Compile of testb.v was successful.
+# 17 compiles, 0 failed with no errors.
+run -all
+# Break key hit
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 9
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testBench
+# Loading work.toplevel
+# Loading work.DataPath
+# Loading work.Reg2Bit
+# Loading work.mux_2_to_1_2bit
+# Loading work.inc
+# Loading work.mux_4_to_1
+# Loading work.reg_1b
+# Loading work.mux_4_to_1_1bit
+# Loading work.Reg5Bit
+# Loading work.mux_2_to_1_5bit
+# Loading work.donecheck
+# Loading work.Adder
+# Loading work.Maze
+# Loading work.stack
+# Loading work.Controller
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 2000060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+add wave -position end  sim:/testBench/test/DP/regx/Dout
+add wave -position end  sim:/testBench/test/DP/regy/Dout
+restart -f
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 2000060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+add wave -position end  sim:/testBench/test/DP/maze/Dout
+restart -f
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 2000060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+add wave -position end  sim:/testBench/test/DP/maze/RD
+add wave -position end  sim:/testBench/test/DP/maze/map[0]
+restart -f
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 2000060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+# Compile of increamenter.v was successful.
+# Compile of reg2bit.v was successful.
+# Compile of stack.v was successful.
+# Compile of maze.v was successful.
+# Compile of reg5bit.v was successful.
+# Compile of controller.v was successful.
+# Compile of mux2inp.v was successful.
+# Compile of mux4inp.v was successful.
+# Compile of reg1bit.v was successful.
+# Compile of Adder5bit.v was successful.
+# Compile of mux2inp2bit.v was successful.
+# Compile of TB.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of DoneCheck.v was successful.
+# Compile of mux4inp1bit.v was successful.
+# Compile of toplevel.v was successful.
+# Compile of testb.v was successful.
+# 17 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testBench
+# Loading work.toplevel
+# Loading work.DataPath
+# Loading work.Reg2Bit
+# Loading work.mux_2_to_1_2bit
+# Loading work.inc
+# Loading work.mux_4_to_1
+# Loading work.reg_1b
+# Loading work.mux_4_to_1_1bit
+# Loading work.Reg5Bit
+# Loading work.mux_2_to_1_5bit
+# Loading work.donecheck
+# Loading work.Adder
+# Loading work.Maze
+# Loading work.stack
+# Loading work.Controller
+restart -f
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 2000060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+# Compile of increamenter.v was successful.
+# Compile of reg2bit.v was successful.
+# Compile of stack.v was successful.
+# Compile of maze.v was successful.
+# Compile of reg5bit.v was successful.
+# Compile of controller.v was successful.
+# Compile of mux2inp.v was successful.
+# Compile of mux4inp.v was successful.
+# Compile of reg1bit.v was successful.
+# Compile of Adder5bit.v was successful.
+# Compile of mux2inp2bit.v was successful.
+# Compile of TB.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of DoneCheck.v was successful.
+# Compile of mux4inp1bit.v was successful.
+# Compile of toplevel.v was successful.
+# Compile of testb.v was successful.
+# 17 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testBench
+# Loading work.toplevel
+# Loading work.DataPath
+# Loading work.Reg2Bit
+# Loading work.mux_2_to_1_2bit
+# Loading work.inc
+# Loading work.mux_4_to_1
+# Loading work.reg_1b
+# Loading work.mux_4_to_1_1bit
+# Loading work.Reg5Bit
+# Loading work.mux_2_to_1_5bit
+# Loading work.donecheck
+# Loading work.Adder
+# Loading work.Maze
+# Loading work.stack
+# Loading work.Controller
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 2000060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+add wave -position end  sim:/testBench/test/DP/s/Dout
+restart -f
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 2000060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+add wave -position end  sim:/testBench/test/DP/s/stack_mem
+restart -f
+run -continue
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 2000060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+restart -f
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 2000060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+restart -f
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 2000060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+# Compile of increamenter.v was successful.
+# Compile of reg2bit.v was successful.
+# Compile of stack.v was successful.
+# Compile of maze.v was successful.
+# Compile of reg5bit.v was successful.
+# Compile of controller.v was successful.
+# Compile of mux2inp.v was successful.
+# Compile of mux4inp.v was successful.
+# Compile of reg1bit.v was successful.
+# Compile of Adder5bit.v was successful.
+# Compile of mux2inp2bit.v was successful.
+# Compile of TB.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of DoneCheck.v was successful.
+# Compile of mux4inp1bit.v was successful.
+# Compile of toplevel.v was successful.
+# Compile of testb.v was successful.
+# 17 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testBench
+# Loading work.toplevel
+# Loading work.DataPath
+# Loading work.Reg2Bit
+# Loading work.mux_2_to_1_2bit
+# Loading work.inc
+# Loading work.mux_4_to_1
+# Loading work.reg_1b
+# Loading work.mux_4_to_1_1bit
+# Loading work.Reg5Bit
+# Loading work.mux_2_to_1_5bit
+# Loading work.donecheck
+# Loading work.Adder
+# Loading work.Maze
+# Loading work.stack
+# Loading work.Controller
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 2000060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+add wave -position end  sim:/testBench/test/DP/maze/map[1]
+restart -f
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 2000060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+add wave -position end  sim:/testBench/test/DP/maze/map[2]
+restart -f
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 2000060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+# Compile of increamenter.v was successful.
+# Compile of reg2bit.v was successful.
+# Compile of stack.v was successful.
+# Compile of maze.v was successful.
+# Compile of reg5bit.v was successful.
+# Compile of controller.v was successful.
+# Compile of mux2inp.v was successful.
+# Compile of mux4inp.v was successful.
+# Compile of reg1bit.v was successful.
+# Compile of Adder5bit.v was successful.
+# Compile of mux2inp2bit.v was successful.
+# Compile of TB.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of DoneCheck.v was successful.
+# Compile of mux4inp1bit.v was successful.
+# Compile of toplevel.v was successful.
+# Compile of testb.v was successful.
+# 17 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testBench
+# Loading work.toplevel
+# Loading work.DataPath
+# Loading work.Reg2Bit
+# Loading work.mux_2_to_1_2bit
+# Loading work.inc
+# Loading work.mux_4_to_1
+# Loading work.reg_1b
+# Loading work.mux_4_to_1_1bit
+# Loading work.Reg5Bit
+# Loading work.mux_2_to_1_5bit
+# Loading work.donecheck
+# Loading work.Adder
+# Loading work.Maze
+# Loading work.stack
+# Loading work.Controller
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 2000060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+# Compile of increamenter.v was successful.
+# Compile of reg2bit.v was successful.
+# Compile of stack.v was successful.
+# Compile of maze.v was successful.
+# Compile of reg5bit.v was successful.
+# Compile of controller.v was successful.
+# Compile of mux2inp.v was successful.
+# Compile of mux4inp.v was successful.
+# Compile of reg1bit.v was successful.
+# Compile of Adder5bit.v was successful.
+# Compile of mux2inp2bit.v was successful.
+# Compile of TB.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of DoneCheck.v was successful.
+# Compile of mux4inp1bit.v was successful.
+# Compile of toplevel.v was successful.
+# Compile of testb.v was successful.
+# 17 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testBench
+# Loading work.toplevel
+# Loading work.DataPath
+# Loading work.Reg2Bit
+# Loading work.mux_2_to_1_2bit
+# Loading work.inc
+# Loading work.mux_4_to_1
+# Loading work.reg_1b
+# Loading work.mux_4_to_1_1bit
+# Loading work.Reg5Bit
+# Loading work.mux_2_to_1_5bit
+# Loading work.donecheck
+# Loading work.Adder
+# Loading work.Maze
+# Loading work.stack
+# Loading work.Controller
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 2000060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+# Compile of increamenter.v was successful.
+# Compile of reg2bit.v was successful.
+# Compile of stack.v was successful.
+# Compile of maze.v was successful.
+# Compile of reg5bit.v was successful.
+# Compile of controller.v was successful.
+# Compile of mux2inp.v was successful.
+# Compile of mux4inp.v was successful.
+# Compile of reg1bit.v was successful.
+# Compile of Adder5bit.v was successful.
+# Compile of mux2inp2bit.v was successful.
+# Compile of TB.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of DoneCheck.v was successful.
+# Compile of mux4inp1bit.v was successful.
+# Compile of toplevel.v was successful.
+# Compile of testb.v was successful.
+# 17 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testBench
+# Loading work.toplevel
+# Loading work.DataPath
+# Loading work.Reg2Bit
+# Loading work.mux_2_to_1_2bit
+# Loading work.inc
+# Loading work.mux_4_to_1
+# Loading work.reg_1b
+# Loading work.mux_4_to_1_1bit
+# Loading work.Reg5Bit
+# Loading work.mux_2_to_1_5bit
+# Loading work.donecheck
+# Loading work.Adder
+# Loading work.Maze
+# Loading work.stack
+# Loading work.Controller
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 2000060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+# Compile of increamenter.v was successful.
+# Compile of reg2bit.v was successful.
+# Compile of stack.v was successful.
+# Compile of maze.v was successful.
+# Compile of reg5bit.v was successful.
+# Compile of controller.v was successful.
+# Compile of mux2inp.v was successful.
+# Compile of mux4inp.v was successful.
+# Compile of reg1bit.v was successful.
+# Compile of Adder5bit.v was successful.
+# Compile of mux2inp2bit.v was successful.
+# Compile of TB.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of DoneCheck.v was successful.
+# Compile of mux4inp1bit.v was successful.
+# Compile of toplevel.v was successful.
+# Compile of testb.v was successful.
+# 17 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testBench
+# Loading work.toplevel
+# Loading work.DataPath
+# Loading work.Reg2Bit
+# Loading work.mux_2_to_1_2bit
+# Loading work.inc
+# Loading work.mux_4_to_1
+# Loading work.reg_1b
+# Loading work.mux_4_to_1_1bit
+# Loading work.Reg5Bit
+# Loading work.mux_2_to_1_5bit
+# Loading work.donecheck
+# Loading work.Adder
+# Loading work.Maze
+# Loading work.stack
+# Loading work.Controller
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 2000060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+add wave -position 15  sim:/testBench/test/DP/s/ptr
+restart -f
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 2000060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+# Compile of increamenter.v was successful.
+# Compile of reg2bit.v was successful.
+# Compile of stack.v was successful.
+# Compile of maze.v was successful.
+# Compile of reg5bit.v was successful.
+# Compile of controller.v was successful.
+# Compile of mux2inp.v was successful.
+# Compile of mux4inp.v was successful.
+# Compile of reg1bit.v was successful.
+# Compile of Adder5bit.v was successful.
+# Compile of mux2inp2bit.v was successful.
+# Compile of TB.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of DoneCheck.v was successful.
+# Compile of mux4inp1bit.v was successful.
+# Compile of toplevel.v was successful.
+# Compile of testb.v was successful.
+# 17 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testBench
+# Loading work.toplevel
+# Loading work.DataPath
+# Loading work.Reg2Bit
+# Loading work.mux_2_to_1_2bit
+# Loading work.inc
+# Loading work.mux_4_to_1
+# Loading work.reg_1b
+# Loading work.mux_4_to_1_1bit
+# Loading work.Reg5Bit
+# Loading work.mux_2_to_1_5bit
+# Loading work.donecheck
+# Loading work.Adder
+# Loading work.Maze
+# Loading work.stack
+# Loading work.Controller
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 2000060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+# Compile of increamenter.v was successful.
+# Compile of reg2bit.v was successful.
+# Compile of stack.v was successful.
+# Compile of maze.v was successful.
+# Compile of reg5bit.v was successful.
+# Compile of controller.v was successful.
+# Compile of mux2inp.v was successful.
+# Compile of mux4inp.v was successful.
+# Compile of reg1bit.v was successful.
+# Compile of Adder5bit.v was successful.
+# Compile of mux2inp2bit.v was successful.
+# Compile of TB.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of DoneCheck.v was successful.
+# Compile of mux4inp1bit.v was successful.
+# Compile of toplevel.v was successful.
+# Compile of testb.v was successful.
+# 17 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testBench
+# Loading work.toplevel
+# Loading work.DataPath
+# Loading work.Reg2Bit
+# Loading work.mux_2_to_1_2bit
+# Loading work.inc
+# Loading work.mux_4_to_1
+# Loading work.reg_1b
+# Loading work.mux_4_to_1_1bit
+# Loading work.Reg5Bit
+# Loading work.mux_2_to_1_5bit
+# Loading work.donecheck
+# Loading work.Adder
+# Loading work.Maze
+# Loading work.stack
+# Loading work.Controller
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 1050060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+# Compile of controller.v was successful.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.Controller
+# Compile of increamenter.v was successful.
+# Compile of reg2bit.v was successful.
+# Compile of stack.v was successful.
+# Compile of maze.v was successful.
+# Compile of reg5bit.v was successful.
+# Compile of controller.v was successful.
+# Compile of mux2inp.v was successful.
+# Compile of mux4inp.v was successful.
+# Compile of reg1bit.v was successful.
+# Compile of Adder5bit.v was successful.
+# Compile of mux2inp2bit.v was successful.
+# Compile of TB.v was successful.
+# Compile of DataPath.v was successful.
+# Compile of DoneCheck.v was successful.
+# Compile of mux4inp1bit.v was successful.
+# Compile of toplevel.v was successful.
+# Compile of testb.v was successful.
+# 17 compiles, 0 failed with no errors.
+restart -f
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.testBench
+# Loading work.toplevel
+# Loading work.DataPath
+# Loading work.Reg2Bit
+# Loading work.mux_2_to_1_2bit
+# Loading work.inc
+# Loading work.mux_4_to_1
+# Loading work.reg_1b
+# Loading work.mux_4_to_1_1bit
+# Loading work.Reg5Bit
+# Loading work.mux_2_to_1_5bit
+# Loading work.donecheck
+# Loading work.Adder
+# Loading work.Maze
+# Loading work.stack
+# Loading work.Controller
+run -all
+# ** Note: $stop    : D:/UT/term 4/CA/CA-1/TB.v(22)
+#    Time: 1027060 ps  Iteration: 0  Instance: /testBench
+# Break in Module testBench at D:/UT/term 4/CA/CA-1/TB.v line 22
+quit -sim
+# End time: 00:01:51 on Apr 10,2023, Elapsed time: 2:06:28
+# Errors: 0, Warnings: 1

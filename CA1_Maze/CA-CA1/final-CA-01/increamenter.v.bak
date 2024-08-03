@@ -1,0 +1,6 @@
+module inc(inp,out,cout);
+	input [1:0] inp;
+	output out,cout;
+
+	assign {cout,out} = inp + 1;
+endmodule

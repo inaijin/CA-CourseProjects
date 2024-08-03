@@ -1,0 +1,133 @@
+# Current time Sun Apr 09 12:39:15 2023
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vsim
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+# Signature = 4a3706afe29a2b87def93ebd4f2693fa
+# 0    0x010642f6: '<unknown (@0x10642f6)>'
+# 1    0x010607a3: '<unknown (@0x10607a3)>'
+# 2    0x00ded56f: '<unknown (@0xded56f)>'
+# 3    0x00decbbb: '<unknown (@0xdecbbb)>'
+# 4    0x00e35edd: '<unknown (@0xe35edd)>'
+# 5    0x00dd2750: '<unknown (@0xdd2750)>'
+# 6    0x00dd9289: '<unknown (@0xdd9289)>'
+# 7    0x00de1bc8: '<unknown (@0xde1bc8)>'
+# 8    0x00dde821: '<unknown (@0xdde821)>'
+# 9    0x00dd6489: '<unknown (@0xdd6489)>'
+# 10   0x00dd5fd6: '<unknown (@0xdd5fd6)>'
+# 11   0x00dd60e6: '<unknown (@0xdd60e6)>'
+# 12   0x00cde8dc: '<unknown (@0xcde8dc)>'
+# 13   0x0096b63c: '<unknown (@0x96b63c)>'
+# 14   0x6f7f5142: 'exit + 0xf' in 'c:\windows\system32\msvcr120.dll'
+# 15   0x0096cc52: '<unknown (@0x96cc52)>'
+# 16   0x0066e60c: '<unknown (@0x66e60c)>'
+# 17   0x00dce8a3: '<unknown (@0xdce8a3)>'
+# 18   0x0066e6ca: '<unknown (@0x66e6ca)>'
+# 19   0x00e9eccd: '<unknown (@0xe9eccd)>'
+# 20   0x004341bf: '<unknown (@0x4341bf)>'
+# 21   0x00f0fec6: '<unknown (@0xf0fec6)>'
+# 22   0x00ed22a6: '<unknown (@0xed22a6)>'
+# 23   0x01060967: '<unknown (@0x1060967)>'
+# 24   0x01066ae8: '<unknown (@0x1066ae8)>'
+# 25   0x0106425a: '<unknown (@0x106425a)>'
+# 26   0x01061aa3: '<unknown (@0x1061aa3)>'
+# 27   0x00613cfb: '<unknown (@0x613cfb)>'
+# 28   0xff070662: 'D:/UT/term 4/CA/CA-1/maze.v:21'
+# 29   0x0105ec74: '<unknown (@0x105ec74)>'
+# 30   0x00499020: '<unknown (@0x499020)>'
+# End of Stack Trace
+
+
+# Current time Sun Apr 09 12:41:27 2023
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vsim
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+# Signature = 4a3706afe29a2b87def93ebd4f2693fa
+# 0    0x01064272: '<unknown (@0x1064272)>'
+# 1    0x01061aa3: '<unknown (@0x1061aa3)>'
+# 2    0x00613cfb: '<unknown (@0x613cfb)>'
+# 3    0xff071432: 'D:/UT/term 4/CA/CA-1/maze.v:21'
+# 4    0x0105ec74: '<unknown (@0x105ec74)>'
+# 5    0x00499020: '<unknown (@0x499020)>'
+# End of Stack Trace
+
+
+# Current time Sun Apr 09 12:41:27 2023
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vsim
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+# Signature = 4a3706afe29a2b87def93ebd4f2693fa
+# 0    0x6f7f551b: 'memccpy + 0xbc' in 'c:\windows\system32\msvcr120.dll'
+# 1    0x01061aa3: '<unknown (@0x1061aa3)>'
+# 2    0x0065f447: '<unknown (@0x65f447)>'
+# 3    0x0107b20b: '<unknown (@0x107b20b)>'
+# 4    0x0105eddd: '<unknown (@0x105eddd)>'
+# 5    0x0066ee58: '<unknown (@0x66ee58)>'
+# 6    0x0066e836: '<unknown (@0x66e836)>'
+# 7    0x00e9eccd: '<unknown (@0xe9eccd)>'
+# 8    0x004341bf: '<unknown (@0x4341bf)>'
+# 9    0x00ed2166: '<unknown (@0xed2166)>'
+# 10   0x00ea6346: '<unknown (@0xea6346)>'
+# 11   0x0096a8c2: '<unknown (@0x96a8c2)>'
+# 12   0x00aa938d: '<unknown (@0xaa938d)>'
+# 13   0x775dcee8: 'LdrSetDllManifestProber + 0xf8' in 'c:\windows\system32\ntdll.dll'
+# 14   0x775d916b: 'RtlUnwind + 0x1cb' in 'c:\windows\system32\ntdll.dll'
+# 15   0x775e5006: 'KiUserExceptionDispatcher + 0x26' in 'c:\windows\system32\ntdll.dll'
+# 16   0x01061aa3: '<unknown (@0x1061aa3)>'
+# 17   0x00613cfb: '<unknown (@0x613cfb)>'
+# 18   0xff071432: 'D:/UT/term 4/CA/CA-1/maze.v:21'
+# 19   0x0105ec74: '<unknown (@0x105ec74)>'
+# 20   0x00499020: '<unknown (@0x499020)>'
+# End of Stack Trace
+
+
+# Current time Sun Apr 09 12:42:18 2023
+# ModelSim - Intel FPGA Edition Stack Trace
+# Program = vsim
+# Id = "2020.1"
+# Version = "2020.02"
+# Date = "Feb 28 2020"
+# Platform = win32pe
+# Signature = 4a3706afe29a2b87def93ebd4f2693fa
+# 0    0x010642f6: '<unknown (@0x10642f6)>'
+# 1    0x010607a3: '<unknown (@0x10607a3)>'
+# 2    0x00ded56f: '<unknown (@0xded56f)>'
+# 3    0x00decbbb: '<unknown (@0xdecbbb)>'
+# 4    0x00e35edd: '<unknown (@0xe35edd)>'
+# 5    0x00dd2750: '<unknown (@0xdd2750)>'
+# 6    0x00dd9289: '<unknown (@0xdd9289)>'
+# 7    0x00de1bc8: '<unknown (@0xde1bc8)>'
+# 8    0x00dde821: '<unknown (@0xdde821)>'
+# 9    0x00dd6489: '<unknown (@0xdd6489)>'
+# 10   0x00dd5fd6: '<unknown (@0xdd5fd6)>'
+# 11   0x00dd60e6: '<unknown (@0xdd60e6)>'
+# 12   0x00cde8dc: '<unknown (@0xcde8dc)>'
+# 13   0x0096b63c: '<unknown (@0x96b63c)>'
+# 14   0x6f7f5142: 'exit + 0xf' in 'c:\windows\system32\msvcr120.dll'
+# 15   0x0096cc52: '<unknown (@0x96cc52)>'
+# 16   0x0066e60c: '<unknown (@0x66e60c)>'
+# 17   0x00dce8a3: '<unknown (@0xdce8a3)>'
+# 18   0x0066e6ca: '<unknown (@0x66e6ca)>'
+# 19   0x00e9eccd: '<unknown (@0xe9eccd)>'
+# 20   0x004341bf: '<unknown (@0x4341bf)>'
+# 21   0x00f0fec6: '<unknown (@0xf0fec6)>'
+# 22   0x00ed22a6: '<unknown (@0xed22a6)>'
+# 23   0x01060967: '<unknown (@0x1060967)>'
+# 24   0x01066ae8: '<unknown (@0x1066ae8)>'
+# 25   0x0106425a: '<unknown (@0x106425a)>'
+# 26   0x01061aa3: '<unknown (@0x1061aa3)>'
+# 27   0x00613cfb: '<unknown (@0x613cfb)>'
+# 28   0xff070662: 'D:/UT/term 4/CA/CA-1/maze.v:21'
+# 29   0x0105ec74: '<unknown (@0x105ec74)>'
+# 30   0x00499020: '<unknown (@0x499020)>'
+# End of Stack Trace
+
+
